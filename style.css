@@ -2,22 +2,29 @@ body {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: rgb(98, 45, 6);
     background-color:rgba(108, 50, 9, 0.205);
+    padding: 0;
+    margin: 0;
 
 }
 
 header {
     color: bisque;
+    margin: 2rem;
 }
 
 
 .image-bg {
     background-image: url("https://images.unsplash.com/photo-1558528021-a4925a5488c7?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
     background-repeat: no-repeat;
-    background-position: center;
-    /* The image will be centered in its container */
+    background-position: top;
     background-size: cover;
     /* The image will cover its container */
     height: 20%;
     min-height: 400px;
+
+  }
+
+article {
+    margin: 2rem;
 
   }
